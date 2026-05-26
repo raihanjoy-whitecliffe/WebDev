@@ -1,0 +1,30 @@
+.inter{
+    color: seagreen;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inter1{
+    color: rgb(128, 6, 149);
+    font-size: large;
+}
+.proimg{
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+}
+.exph{
+    font-size: large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.exp{
+    font-family: system-ui;
+    font-style: italic;
+    text-shadow: 90px;
+}
+.soch{
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+}
+.aboutme{
+    font-size: large;
+    font-style: oblique;
+}

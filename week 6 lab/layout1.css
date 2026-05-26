@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+header{
+    display: flex;
+    margin: 40px;
+    padding: 10%;
+    height: 20%;
+    gap: 10px;
+    color: #333;
+}
+ 
+.container {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    gap: 10px;
+}
+ 
+/* Flex items */
+nav{
+    background-color: #dcd85d;
+    color: rgb(15, 13, 13);
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+header{
+    display: flex;
+    flex-grow: 10%;
+    margin: 40px;
+    padding: 20px;
+    background-color: #dcd85d;
+    color: rgb(15, 13, 13);
+    text-align: center;
+    border-radius: 8px;
+}
+footer{
+    background-color: #dcd85d;
+    color: rgb(15, 13, 13);
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+main{
+    display: flex;
+    margin: 10%;
+    padding: 10%;
+    flex-grow: 10%;
+    background-color: #dcd85d;
+    color: rgb(15, 13, 13);
+    text-align: center;
+    border-radius: 8px;
+}

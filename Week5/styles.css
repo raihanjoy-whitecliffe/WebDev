@@ -1,0 +1,30 @@
+.bgc{
+    background-color: rgb(83, 105, 212);
+}
+.intro{
+    color: brown;
+    font-family:cursive;
+    font-size: 30px;
+}
+.section{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(195, 192, 194);
+    padding: 140px;
+    border: 10px solid red;
+    margin: 50px;
+}
+.hvr1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(22, 20, 20);
+    color: aliceblue;
+}
+.hvr1:hover{
+    background-color: orange;
+    color: rgb(16, 15, 15);
+    transform:skew(20)
+    scale3d(90)
+}
+.li-st{
+    list-style-type:upper-alpha;
+}

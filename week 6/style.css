@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header{
+    background: rgb(91, 1, 1);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav{
+    background: rgb(131, 4, 4);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container{
+    overflow: hidden;
+}
+
+.sidebar{
+    float: left;
+    width: 30%;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    box-sizing: border-box;
+}
+.content{
+    float: left;
+    width: 30%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+footer{
+    font-family: cursive;
+    clear: both;
+    background: #333;
+    color: white;
+    text-align: center;
+}

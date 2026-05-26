@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #333;
+}
+ 
+/* General container styling */
+.container {
+    display: flex;
+    margin: 10px 0;
+    padding: 10px;
+    height: 100px;
+    gap: 10px;
+}
+ 
+/* Flex items */
+.item {
+    background-color: #dcd85d;
+    color: rgb(15, 13, 13);
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+ 
+/* Scenario 1: three items equal */
+.scenario1 .item {
+    flex: 1; /* All items share equal space */
+}
+ 
+/* Scenario 2: two items, flex 1 and flex 2 */
+.scenario2 .item:nth-child(1) {
+    flex: 1;
+}
+.scenario2 .item:nth-child(2) {
+    flex: 2;
+}
+ 
+/* Scenario 3: two items, flex 1 and flex 3 */
+.scenario3 .item:nth-child(1) {
+    flex: 1;
+}
+.scenario3 .item:nth-child(2) {
+    flex: 3;
+}

@@ -1,0 +1,41 @@
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2cm;
+}
+.h1-cursive{
+    color: rgb(217, 62, 62);
+    font-size: 50px;
+    font-family: 'Brush Script MT';
+    text-align: center;
+    -webkit-text-stroke: .01px #000000;
+}
+.h5-motto{
+    color: rgb(163, 147, 4);
+    font-size: 25px;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    -webkit-text-stroke: .000000005px #01464b;
+}
+body {
+  background-image: url;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.p-justify{
+    color: rgb(40, 38, 38);
+    font-size: 20px;
+    font-family: 'Brush Script MT', cursive;
+    text-align: left;
+}
+.h3-underline{
+    color: rgb(40, 40, 40);
+    font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+    text-align: left;
+    text-decoration: underline;
+    border: 1px solid rgb(92, 0, 0);
+}
+.table_sort{
+    align-items: center;
+}
