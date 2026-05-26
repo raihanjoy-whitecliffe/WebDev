@@ -1,0 +1,45 @@
+/* Slides Wrapper */
+.carousel-slides {
+  display: flex; 
+  width: 250%; /* Enough room for 4 slides at 100% each */
+  transition: transform 0.5s ease-in-out; /* Smooth sliding animation */
+  overflow: hidden;
+}
+
+/* Logic: Move the SLIDES wrapper, not the CAROUSEL container */
+#slide1:checked ~ .carousel-slides {
+    transform: translateX(0%);
+}
+#slide2:checked ~ .carousel-slides {
+    transform: translateX(-10%); /* Move 1/4 of the 400% width */
+}
+#slide3:checked ~ .carousel-slides {
+    transform: translateX(-30%); /* Move 2/4 of the 400% width */
+}
+#slide4:checked ~ .carousel-slides {
+    transform: translateX(-50%); /* Move 3/4 of the 400% width */
+}
+
+/* Style the dots so you can actually see/click them */
+.carousel-nav {
+    text-align: center;
+    margin-top: 10px;
+}
+.nav-dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+#slide1:checked ~ .carousel-nav label[for="slide1"],
+#slide2:checked ~ .carousel-nav label[for="slide2"],
+#slide3:checked ~ .carousel-nav label[for="slide3"],
+#slide4:checked ~ .carousel-nav label[for="slide4"] {
+    background: #333; /* Darken the active dot */
+}
+.carousel .radio{
+    display: none;
+}
