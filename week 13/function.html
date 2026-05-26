@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Functions Example</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+     <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+ 
+<body>
+    <div class="container">
+        <h1>JavaScript Functions Example</h1>
+ 
+        <div class="alert alert-danger" role="alert">
+            This is a high alert message.
+        </div>
+ 
+        <div class="output">
+            <h2>Function Output:</h2>
+            <div id="messageOutput"></div>
+            <div id="sumOutput"></div>
+        </div>
+        <div class="output">
+            <div id="messageOutput"></div>
+            <div id="subtractionOutput"></div>
+        </div>
+        <div class="output">
+            <div id="messageOutput"></div>
+            <div id="multiplicationOutput"></div>
+        </div>
+         <div class="output">
+            <div id="messageOutput"></div>
+            <div id="divisionOutput"></div>
+ 
+        <script>
+            // Global scope
+            const message = 'Hello, World!';
+ 
+            function displayMessage() {
+                // Function scope
+                const name = 'John';
+                const messageOutput = document.getElementById('messageOutput');
+                messageOutput.innerHTML = `Message: ${message}<br> Hello, ${name}!`;
+            }
+ 
+            function calculateSum(a, b) {
+                // Function scope
+                const sum = a + b;
+                const sumOutput = document.getElementById('sumOutput');
+                sumOutput.innerHTML = `Sum: ${sum}`;
+            }
+            function calculateSubtraction(a, b) {
+                // Function scope
+                const subtraction = a - b;
+                const sumOutput = document.getElementById('subtractionOutput');
+                sumOutput.innerHTML = `Subtraction: ${subtraction}`;
+            }
+            function calculateMultiplication(a, b) {
+                // Function scope
+                const multiplication = a * b;
+                const sumOutput = document.getElementById('multiplicationOutput');
+                sumOutput.innerHTML = `Multiplication: ${multiplication}`;
+            }
+            function calculateDivision(a, b) {
+                // Function scope
+                const division = a / b;
+                const sumOutput = document.getElementById('divisionOutput');
+                sumOutput.innerHTML = `Division: ${division}`;
+            }
+ 
+            displayMessage();
+            calculateSum(10, 19);
+            calculateSubtraction(10, 19);
+            calculateMultiplication(10, 19);
+            calculateDivision(10, 19);
+ 
+            // Accessing global variables outside the function
+            const messageOutput = document.getElementById('messageOutput');
+            messageOutput.innerHTML += `<br> Global Message: ${message}`;
+        </script>
+ 
+    </div>
+ 
+   
+</body>
+ 
+</html>
