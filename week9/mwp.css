@@ -1,0 +1,78 @@
+.container {
+    padding: 10px;
+    flex: 0 1;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+    color: #097501;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: #ee0505;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    color: #004ba1;
+    text-align: center;
+}
+.img {
+    display: block;
+    border: black solid 1px;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    overflow: hidden;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.list {
+    font-size: 18px;
+    color: #333;
+    margin-left: 20px;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+.table th, .table td {
+    border: 3px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    max-width: 100px;
+}
+.table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+form {
+    box-sizing: width;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: #333 0px 0px 10px;
+    display: block;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 20px;
+}
+label {
+    font-size: 18px;
+    color: #0c3188;
+    margin-bottom: 2px;
+}
