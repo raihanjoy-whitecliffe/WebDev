@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, sans-serif;
+    background: white;
+    text-align: center;
+    margin:0;
+    padding: 20px;
+}
+.title{
+    margin:20px;
+    color: #171212;
+}
+h1{
+    text-align: center;
+    color: rgb(55, 1, 1);
+}
+.timetable{
+    display: grid;
+    grid-template-columns: 120px repeat(4, 1fr);
+    gap: 10px;
+    max-width: 700px;
+    margin: auto;
+}
+.cell{
+    padding: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.header{
+    background: #452522;
+}
+.time{
+    background: #452522;
+}
+.math{
+    background: rgb(5, 119, 81);
+}
+.sci{
+    background: red;
+}
+.comp{
+    background: rgb(160, 1, 160);
+}
+.pe{
+    background: green;
+}
+.geo{
+    background: rgb(136, 92, 27);
+}
+.lang{
+    background: blue;
+}
+.fmw{
+    background: #668e02;
+}
+.spo{
+    background: darkorange;
+}
+.msc{
+    background: rgb(83, 1, 96);
+}
+.dnc{
+    background: brown;
+}
+.acc{
+    background: navy;
+}
+.bus{
+    background: rgb(158, 116, 9);
+}
+.cell:hover{
+    transform: scale(1.099);
+    transition: .5s;
+    cursor: pointer;
+}
