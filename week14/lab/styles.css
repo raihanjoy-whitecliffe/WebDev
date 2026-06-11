@@ -1,0 +1,51 @@
+.card{
+    overflow:hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+body {
+    margin: auto;
+    padding: 0;
+}
+footer {
+    max-width: 100%;
+    margin: auto;
+}
+tr {
+    background-color: #6d99c5;
+}
+.table thead th {
+    background-color: #6d99c5;
+    color: #fff;
+}
+.table tbody tr {
+    background-color: #000000;
+}
+.cart-body {
+    background-color: #b4c3d2;
+    font-style: italic;
+    font-weight: bold;
+}
+.container-fluid {
+    background-color: #5b8ec1;
+    border-radius: 10px;
+}
+.cart-summary{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    background-color: #0124587f ;
+    font-size: large;
+    font-weight: bold;
+}
+.btn-success {
+    background-color: #55a728;
+    border-color: #55a728;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, border-color 0.3s
+    
+}
+.card{
+    transform:translate3d(2)
+}
